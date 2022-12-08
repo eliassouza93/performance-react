@@ -11,6 +11,9 @@ const Prato = lazy(() => import('pages/Prato'));
 const Sobre = lazy(() => import('pages/Sobre'));
 
 export default function AppRouter() {
+
+  console.log(Cardapio);
+
   return (
     <main className='container'>
       <Router>
